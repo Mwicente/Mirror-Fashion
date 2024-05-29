@@ -1,0 +1,76 @@
+body{
+    height: 100vh; 
+    background: linear-gradient(45deg, rgba(223, 81, 157), rgba(190, 230, 249, 1));
+    display: flex;
+    justify-content: center;
+        align-items: center;
+    }
+    .cubo{
+        position: relative;
+        width: 450px;
+        min-height: 400px;
+        padding: 50px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        justify-content: center;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .checkbox{
+        display: flex;
+        align-items: center;
+        gap: 2px;
+        }
+    input{
+        padding: 12px;
+        border-radius: 15px;
+    }
+    .senha2{
+        margin-top: 10px;
+    }
+    button{
+        padding: 12px;
+        background-color: red;
+        color: white;
+        border-radius: 15px;
+    }
+    .home{
+        position: absolute;
+        top: -35px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-left: -50px;    
+    }
+    .fundo-da-img{
+     background-color: red;
+     border-radius: 150px;
+     padding: 10px;
+    }
+    img{
+        filter: invert(100%)
+    }
+    .redes{
+        display: flex;
+        justify-content: center;
+    }
+    .glass{
+        padding: 2px;
+        background-color: red;
+        color: white;
+        border-radius: 10px;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        margin: 40px;
+        text-decoration: none;
+    }
+    p{
+        margin: 8px;
+    }

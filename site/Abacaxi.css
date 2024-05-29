@@ -1,0 +1,14 @@
+.azul{
+    width: 50vw;
+    height: 50vh;
+    background-color: blue;
+}
+.vermelho{
+    width: 40vw;
+    height: 50vh;
+    background-color: brown;
+}
+img{
+    width: 40%;
+    height: 70%;
+}
